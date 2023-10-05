@@ -4,7 +4,7 @@ empate = 0
 for x in range(3):
     jogador1 = input("JOGADOR 1: [Pedra,Papel ou tesoura]:  ")
     jogador2 = input("JOGADOR 2: [Pedra,Papel ou tesoura]:  ")
-    if jogador1 == "pedra" and jogador2 == "pedra" or jogador1 == "tesoura" and jogador2 == "tesoura" or jogador1 == "papel" and jogador2 == "papel":
+    if jogador1 == jogador2:
         print("EMPATE")
         empate += 1
     elif jogador1 == "pedra" and jogador2 == "tesoura" or jogador1 == "papel" and jogador2 == "pedra" or jogador1 == "tesoura" and jogador2 == "papel":
